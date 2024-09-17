@@ -1,0 +1,25 @@
+.modal {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.button_tasks, #button-add-tarea {
+    background-color: skyblue;
+    border: none;
+    border-radius: 2rem;
+    width: 7rem;
+    margin:  1rem;
+}
+#button-add-tarea {
+    margin: 2rem;
+}
+#modal-title {
+    margin: 1rem;
+}
+#tarea {
+    border-color: skyblue;
+    border-radius: 2rem;
+    width: 12rem;
+    height: 1.5rem;
+}
